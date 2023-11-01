@@ -1,0 +1,116 @@
+
+html,body{
+margin: 0;
+}
+
+body {
+  border: solid black 2px;
+  padding: 2%;
+  margin-top: 2%;
+  line-height: 1.2;
+  width: min(76%,70.5rem);
+  margin-inline: auto;
+  font-family: 'DM Sans', sans-serif;
+}
+.name{
+  letter-spacing: 10px;
+    font-size: 20.6px;
+    font-weight: 1000px;
+    text-align: center;
+}
+section{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+
+#status {
+  text-align: center;
+  font-size: larger;
+}
+
+#details_items {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  padding: 0;
+}
+
+#skills_section {
+  display: flex;
+  justify-content: space-around;
+}
+
+#Professional,
+#Technical {
+  width: 50%;
+}
+
+.skills {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  justify-content: space-around;
+}
+
+.dates {
+  text-align: end;
+}
+
+div.headings,
+span {
+  font-size:larger;
+  font-family: "Roboto Mono", monospace;
+  color:#af9221;
+  letter-spacing: 4px;
+  margin: 3% 3% 3% 0;
+}
+#certificates a {
+  color: black;
+  margin-bottom: 10px;
+  display: block;
+}
+.page-break {
+  margin-top: 2rem;
+  border-top: 1px dashed #af9221;
+  padding-top: 2rem;
+}
+hr {
+  border: 1px solid #af9221;
+}
+p {
+  margin: 3px 3px 3px 0;
+}
+
+@media screen and (max-width:900px){
+
+    body{
+        margin-top: 0;
+        width: 90%;
+    }
+    
+      #Professional,
+      #Technical {
+        width: 100%;
+      }
+}
+@media screen and (max-width:600px){
+
+    #skills_section{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .skills {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        justify-content: space-around;
+      }
+}
+
+
+
+
+
+
